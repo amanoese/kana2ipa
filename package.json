@@ -1,0 +1,36 @@
+{
+  "name": "kana2ipa",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/converter.js",
+  "bin": {
+    "kana2ipa": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanoese/kana2ipa.git"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "unicode",
+    "IPA",
+    "X-SAMPA"
+  ],
+  "author": "amanoese",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amanoese/kana2ipa/issues"
+  },
+  "homepage": "https://github.com/amanoese/kana2ipa#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "get-stdin": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
