@@ -1,7 +1,7 @@
 {
   "name": "kana2ipa",
   "version": "0.1.0",
-  "description": "",
+  "description": "「ひらがな」または「カタカナ」を音声記号(IPA)に変換するコマンドです",
   "main": "src/converter.js",
   "bin": {
     "kana2ipa": "src/cli.js"
@@ -28,7 +28,8 @@
   "homepage": "https://github.com/amanoese/kana2ipa#readme",
   "dependencies": {
     "commander": "^4.0.1",
-    "get-stdin": "^7.0.0"
+    "get-stdin": "^7.0.0",
+    "xregexp": "^4.2.4"
   },
   "devDependencies": {
     "jest": "^24.9.0"
