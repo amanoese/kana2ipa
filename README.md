@@ -1,10 +1,14 @@
 kana2ipa
 ---
 
-カタカナを日本語で発音する際の音声記号([International Phonetic Alphabet (IPA)](https://ja.wikipedia.org/wiki/国際音声記号)) に変換するコマンドです。  
+「ひらがな」または「カタカナ」を音声記号([International Phonetic Alphabet (IPA)](https://ja.wikipedia.org/wiki/国際音声記号)) に変換するコマンドです。  
 Node.jsのライブラリとしても使用できます。  
 
-@amanoese の独自調査により作成しているため、  
+## Description
+「ひらがな」または「カタカナ」を音声記号(IPA)に変換します。  
+**現代の標準的な日本語話術者の発音を想定した変換になります。**  
+
+変換のルールは[@amanoese](https://github.com/amanoese/) の独自調査により作成しているため、  
 正確な発音である保証はありません。  
 
 ## Install
@@ -13,31 +17,32 @@ Node.jsのライブラリとしても使用できます。
 $ npm i -g kana2ipa
 ```
 
-## Usage
+## Usage on CLI(bash)
 
 ```bash
-$ kana2ipa コンニチワ
+$ kana2ipa こんにちわ
 koɴɲit͡ɕiɰa
+
 $ kana2ipa ツイッター
 tsɯittaː
+
 $ kana2ipa コンパンジャンドラム
 kompaɴʤandoɾamɯ
 ```
 
-## Usage Library
+## Usage Library for Node.js
 
 ```node
 const converter = require('converter')
 
 console.log(converter.kana2ipa('コンニチワ'))
 // koɴɲit͡ɕiɰa
+console.log(converter.kana2ipa('こんぱんじゃんどらむ'))
+kompaɴʤandoɾamɯ
 ```
 
 ## Feature
-
-- ひらがなtoIPA
-    TBD
-- to X-SAMPA
-    TBD
+- kana to X-SAMPA  
+  - TBD
 
 
