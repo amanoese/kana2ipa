@@ -1,5 +1,6 @@
 kana2ipa
 ---
+[![npm version](http://img.shields.io/npm/v/kana2ipa.svg)](https://npmjs.org/package/kana2ipa)
 
 「ひらがな」または「カタカナ」を音声記号([International Phonetic Alphabet (IPA)](https://ja.wikipedia.org/wiki/国際音声記号)) に変換するコマンドです。  
 Node.jsのライブラリとしても使用できます。  
