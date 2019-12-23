@@ -18,7 +18,7 @@ Node.jsのライブラリとしても使用できます。
 $ npm i -g kana2ipa
 ```
 
-## Usage on CLI(bash)
+## Usage on CLI
 
 ```bash
 $ kana2ipa こんにちわ
@@ -33,7 +33,7 @@ kompaɴʤandoɾamɯ
 
 ## Usage Library for Node.js
 
-```node
+```javascript
 const converter = require('converter')
 
 console.log(converter.kana2ipa('コンニチワ'))

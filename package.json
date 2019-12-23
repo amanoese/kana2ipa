@@ -1,6 +1,6 @@
 {
   "name": "kana2ipa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "「ひらがな」または「カタカナ」を音声記号(IPA)に変換するコマンドです",
   "main": "src/converter.js",
   "bin": {
