@@ -9,7 +9,7 @@ Node.jsのライブラリとしても使用できます。
 「ひらがな」または「カタカナ」を音声記号(IPA)に変換します。  
 **現代の標準的な日本語話術者の発音を想定した変換になります。**  
 
-変換のルールは[@amanoese](https://github.com/amanoese/) の独自調査により作成しているため、  
+変換のルールは独自調査により作成しているため、  
 正確な発音である保証はありません。  
 
 ## Install
@@ -39,7 +39,7 @@ const converter = require('converter')
 console.log(converter.kana2ipa('コンニチワ'))
 // koɴɲit͡ɕiɰa
 console.log(converter.kana2ipa('こんぱんじゃんどらむ'))
-kompaɴʤandoɾamɯ
+// kompaɴʤandoɾamɯ
 ```
 
 ## Feature
